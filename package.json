@@ -1,0 +1,26 @@
+{
+  "name": "project-euler",
+  "description": "My solutions to Project Euler.",
+  "version": "0.1.0",
+  "homepage": "https://projecteuler.net/",
+  "author": {
+    "name": "Ben Centra",
+    "url": "http://bencentra.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bencentra/project-euler"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "underscore": ">= 1.7.0"
+  },
+  "keywords": [
+    "project",
+    "euler",
+    "javascript",
+    "node"
+  ]
+}
