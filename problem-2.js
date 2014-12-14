@@ -5,6 +5,7 @@ var cur = 0;
 var count = 1;
 var counting = true;
 
+// http://stackoverflow.com/questions/494594/how-to-write-the-fibonacci-sequence-in-python
 function fib(n) {
     if (n < 2) {
       return n;
