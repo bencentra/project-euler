@@ -2,10 +2,13 @@ var _ = require("underscore");
 
 function primeFactors(n) {
   var factors = [];
-  for (var i = 2; i <= n; i++) {
-    if (isPrime(i))
-      if (n % i == 0) 
+  for (var i = 3; i <= n; i++) {
+    if (isPrime(i)) {
+      if (n % i == 0) {
+        console.log(i);
         factors.push(i);
+      }
+    }
   }
   return factors;
 }
@@ -26,5 +29,6 @@ function isPrime(n) {
   return true;
 }
 
+// Let it run; when it hangs, you probably have your answer!
 var pfs = primeFactors(600851475143);
 console.log(pfs);
