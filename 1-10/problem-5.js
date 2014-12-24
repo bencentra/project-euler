@@ -1,5 +1,3 @@
-var _ = require("underscore");
-
 var i = 19;
 var found = false;
 var num = false;
