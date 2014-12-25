@@ -15,7 +15,8 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "underscore": ">= 1.7.0"
+    "underscore": ">= 1.7.0",
+    "mathjs": ">= 1.1.1"
   },
   "keywords": [
     "project",
